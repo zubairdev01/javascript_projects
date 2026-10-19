@@ -6,6 +6,7 @@
     "dev": "concurrently -k \"npm --prefix ./PSX_TradingMentorCRM/client run dev\" \"npm --prefix ./PSX_TradingMentorCRM/server run dev\""
   },
   "devDependencies": {
-    "concurrently": "^9.2.3"
+    "concurrently": "^9.2.3",
+    "vite": "^8.3.4"
   }
 }
