@@ -1,0 +1,11 @@
+{
+  "name": "psx-insight-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently -k \"npm --prefix ./PSX_TradingMentorCRM/client run dev\" \"npm --prefix ./PSX_TradingMentorCRM/server run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.3"
+  }
+}
